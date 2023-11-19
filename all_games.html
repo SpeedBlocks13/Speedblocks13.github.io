@@ -8,7 +8,7 @@
         .CenterImg{
 			display: block;
 			margin: auto;
-			block-size: 25%;
+			block-size: 70%;
 		}
 		.Eachbody{
 			background-color: #FF9F00;
@@ -19,25 +19,26 @@
 		}
 
 
+        #bottombanner{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            margin: auto;
+            background-color: lightgrey;
+        }
         #leftbox {
-            float:left; 
-            background:Red;
+            float:left;
             width:33%;
-            height:280px;
             }
         #middlebox{
             position: absolute;
             left: 50%;
             transform: translate(-50%,0);
-            background:Green;
             width:33%;
-            height:280px;
             }
         #rightbox{
             float:right;
-            background:blue;
             width:33%;
-            height:280px;
             }
     </style>
 
@@ -46,19 +47,36 @@
 			<img style="width: 100%;" src="./images/banner_SBS__1_2.jpg">
 		</div>
 
-        <div id = "boxes">             
-            <div id = "leftbox">
+        <div>             
+            <div id = "leftbox" style="background-color:green; height:300px;">
+                <h1 class="CentertxtInDiv" >Hoger of Lager</h1>
+                <a href="higher_or_lower.html"><img class="CenterImg" src="./images/hoger of lager.jpg"></a>
             </div> 
              
-            <div id = "middlebox">
+            <div id = "middlebox" style="background-color:red; height:300px;">
+                <h1 class="CentertxtInDiv">Brino's Adventures</h1>
             </div>
              
-            <div id = "rightbox">
+            <div id = "rightbox" style="background-color:blue; height:300px;">
+                <h1 class="CentertxtInDiv">Dairy farm</h1>
             </div>
         </div>
 
-		<div class="bottomBanner">
-			<img style="width: 100%;" src="./images/banner_SBS__1_2.jpg">
-		</div>
+        <br>
+
+        <div id = "bottomBanner">             
+            <div id = "leftbox">
+                <h1>Socials:</h1>
+                <a href="https://discord.gg/SbPuhCJGqz"><h1 style="color: white;"> - Discord</h1></a>
+            </div> 
+             
+            <div id = "middlebox">
+                <h1 class="CentertxtInDiv"></h1>
+            </div>
+             
+            <div id = "rightbox">
+                <h1 class="CentertxtInDiv"></h1>
+            </div>
+        </div>
     </body>
 </html>

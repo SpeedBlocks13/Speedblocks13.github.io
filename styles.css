@@ -1,0 +1,63 @@
+.CenterImg{
+    display: block;
+    margin: auto;
+    block-size: 70%;
+}
+.Eachbody{
+    background-color: #FF9F00;
+    margin: 0;
+}
+.CentertxtInDiv{
+    text-align: center;
+}
+
+
+#leftbox {
+    float:left;
+    width:33%;
+    margin-bottom: 10px;
+}
+#middlebox{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    width:33%;
+    margin-bottom: 10px;
+}
+#rightbox{
+    float:right;
+    width:33%;
+    margin-bottom: 10px;
+}
+
+
+.footer-container{
+    background-color: lightgrey;
+}
+.footer{
+    width: 80%;
+    height: 40vh;
+    background-color: lightgrey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.footer-heading h1{
+    margin-bottom: 1rem;
+}
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+    color: black;
+    transition: 0.3s ease-out;
+}

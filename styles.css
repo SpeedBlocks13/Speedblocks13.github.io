@@ -15,25 +15,22 @@
 #leftbox {
     float:left;
     width:33%;
-    margin-bottom: 10px;
+    height:300px;
 }
 #middlebox{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,0);
-    width:33%;
-    margin-bottom: 10px;
+    float: left;
+    width:34%;
+    height:300px;
 }
 #rightbox{
     float:right;
     width:33%;
-    margin-bottom: 10px;
+    height:300px
 }
-
-
 .footer-container{
     background-color: lightgrey;
 }
+
 .footer{
     width: 80%;
     height: 40vh;

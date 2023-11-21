@@ -18,14 +18,14 @@
     height:300px;
 }
 #middlebox{
-    float: left;
+    float:left;
     width:34%;
     height:300px;
 }
 #rightbox{
     float:right;
     width:33%;
-    height:300px
+    height:300px;
 }
 
 
@@ -59,22 +59,36 @@
     color: black;
     transition: 0.3s ease-out;
 }
+.iframe_footer{
+    position: absolute;
+    right: 0;
+}
 
 
 .img-before-info{
     float: left;
-    width: 30%;
-    padding-top: 30%;
+    width: 400px;
+    height: 400px;
     background-color: red;
+    margin-bottom: 30;
+    margin-top: 30;
+    margin-left: 30;
 }
 .info-after-img{
     float: right;
-    width: 65%;
-    padding-top: 30%;
+    width: 1000px;
+    height: 400px;
     background-color: blue;
+    margin-bottom: 30;
+    margin-top: 30;
+    margin-right: 30;
 }
 .info-under-info-img{
-    width: 90%;
-    padding-top: 90%;
+    width: 1450px;
+    height: 1450px;
     background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

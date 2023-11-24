@@ -78,10 +78,11 @@
     float: right;
     width: 1000px;
     height: 400px;
-    background-color: blue;
+    background-color: #FF9F00;
     margin-bottom: 30;
     margin-top: 30;
     margin-right: 30;
+    text-align: center;
 }
 .info-under-info-img{
     width: 1450px;

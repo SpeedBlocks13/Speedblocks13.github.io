@@ -60,24 +60,23 @@
     transition: 0.3s ease-out;
 }
 .iframe_footer{
-    position: absolute;
+    position: relative;
+    bottom: 0;
     right: 0;
 }
 
 
 .img-before-info{
     float: left;
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     background-color: #FF9F00;
     margin-bottom: 30;
-    margin-top: 30;
-    margin-left: 30;
 }
 .info-after-img{
+    width: 70%;
+    height: 100%;
     float: right;
-    width: 1000px;
-    height: 400px;
     background-color: #FF9F00;
     margin-bottom: 30;
     margin-top: 30;
@@ -85,7 +84,8 @@
     text-align: center;
 }
 .info-under-info-img{
-    width: 1450px;
+    width: 100%;
+    height: 50%;
     background-color: #FF9F00;
     margin-left: auto;
     margin-right: auto;

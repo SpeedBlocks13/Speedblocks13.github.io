@@ -94,6 +94,15 @@
     margin: auto;
 }
 
+@media (min-width: 300px){
+    .img-before-info{
+        width: 100%;
+    }
+    .info-after-img{
+        width: 100%;
+    }
+}
+
 
 .bottom_iframe_container {
     position: absolute;

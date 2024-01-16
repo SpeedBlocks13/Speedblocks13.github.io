@@ -69,14 +69,16 @@
     width: 25%;
     box-sizing: border-box;
     padding: 20px;
+    display: inline-block;
+    min-width: 300px;
 }
 .info-after-img{
-    float: left;
     background-color: #FF9F00;
     margin-bottom: 30;
     margin-top: 30;
     margin-right: 30;
     text-align: center;
+    display: inline-block;
 }
 .info-under-info-img{
     background-color: #FF9F00;
@@ -91,6 +93,7 @@
     block-size: 50%;
     margin: auto;
 }
+
 
 .bottom_iframe_container {
     position: absolute;

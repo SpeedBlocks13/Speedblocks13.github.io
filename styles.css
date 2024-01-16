@@ -94,7 +94,7 @@
     margin: auto;
 }
 
-@media (min-width: 300px){
+@media (max-width: 300px){
     .img-before-info{
         width: 100%;
     }

@@ -26,6 +26,18 @@
     width:33%;
 }
 
+@media (max-width: 300px){
+    #leftbox{
+        width: 100%;
+    }
+    #middlebox{
+        width: 100%;
+    }
+    #rightebox{
+        width: 100%;
+    }
+}
+
 
 .footer-container{
     background-color: lightgrey;
@@ -118,7 +130,5 @@
 }
 
 .box_img_inf{
-    width: 75%;
-    box-sizing: border-box;
     padding: 20px;
 }

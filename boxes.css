@@ -1,0 +1,17 @@
+.button-uiterlijk{
+    appearance: none;
+    background-color: #828282;
+    font-size: 50;
+    font-family: Super;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.textfield-uiterlijk{
+    background-color: #828282;
+    font-size: 50;
+    font-family: Super;
+}

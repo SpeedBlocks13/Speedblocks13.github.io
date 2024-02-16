@@ -37,3 +37,13 @@ function clickbutton() {
         antwoord.value = "Yipeeeee"
     }
 }
+document.addEventListener('keydown', KEYpressed);
+
+function KEYpressed(e) {
+  if (e.key == 'Enter') {
+    clickbutton()
+  }
+  else if (e.key == 'Backspace') {
+    clearHL()
+  }
+}
